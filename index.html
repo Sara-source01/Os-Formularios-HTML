@@ -214,8 +214,34 @@
             <input type="submit" />
         </form>
         </p>
-
-
+        <br>
+        <li>
+            <b><u> Um formulário de fieldset:
+            </b></u>
+        </li>
+        <h4>Contate-nos</h4>
+        <form>
+            <fieldset>
+                <legend>Envie-nos uma massagem</legend>
+                <p>
+                    <label for="Name">Nome:</label>
+                    <input autofocus required id="Name" name="name" type="text"
+                        placeholder="por favor digite o seu nome">
+                </p>
+                <label for="Email">E-mail:</label>
+                <input required id="Email" name="Email" type="email" placeholder="por favor digite o seu e-mail">
+                <br><br>
+                <label for="Your Message">Sua Massagem</label>
+                <br>
+                <textarea id="Your Message" name="content" cols="90" rows="15" maxlength="100" minlength="3"
+                    placeholder="Digite A Sua Massagem"></textarea>
+                <div>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+            </fieldset>
+        </form>
+        </p>
     </ol>
 
 </body>
