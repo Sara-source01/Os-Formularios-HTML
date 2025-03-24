@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form>
+        <br>
+        <p>
+            <!-- Parâmetros com POST -->
+        <form action="" method="post">
+            <label for="name">Nome: <input required type="text" name="name"></label>
+        </form>
+        </p>
+        <fieldset>
+            <legend>Escolha de prato</legend>
+            <p>
+                <label>
+                    <input type="radio" name="main" value="m001">
+                    Strogonoff de frango</label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="main" value="m002">
+                    filé de peixe</label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="main" value="m003">
+                    Macarrão</label>
+            </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>Acompanhamentos</legend>
+
+            <label>Batata-frita
+                <input type="checkbox" name="side" value="select">
+            </label>
+
+            <label>Salada
+                <input type="checkbox" name="side" value="saudavelmente">
+            </label>
+
+            <label>Feijão
+                <input type="checkbox" name="side" value="s003">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Bebida</legend>
+            <p>
+                <label>
+                    <input type="radio" name="drink" value="d001">
+                    Refrigerante</label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="drink" value="d002">
+                    Suco de laranja</label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="drink" value="d003">
+                    Guaraná natural</label>
+            </p>
+
+        </fieldset>
+
+        <br><br>
+        <label for="notes">Observações</label>
+
+        <textarea name="notes" maxlength="30" minlength="2" cols="40" rows="20"></textarea>
+        <br><br>
+        <label for="payment">Forma de pagamento</label>
+        <select id="payment" name="payment">
+            <option selected value="cash">Dinheiro</option>
+            <option value="credit">Cartão de crédito</option>
+            <option value="debit">Cartão de débito</option>
+        </select>
+        <p><button type="reset">Recomeçar pedido</button>
+            <button type="submit">Fazer pedido</button>
+        </p>
+    </form>
+</body>
+
+</html>
