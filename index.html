@@ -25,11 +25,36 @@
 <!-- conteúdo de página -->
 
 <body>
-    <h1>Os Formulários de HTML</h1>
-    <hr>
+    <header>
+        <h1>Os Formulários de HTML</h1>
+        <hr>
+        <nav>
+            <h2>Listagem rápida:</h2>
+            <ol>
+                <li><a href="#f">Um formulário de data, hora, mês e data-hora local.</a></li>
+                <li><a href="#o">Um formulário de usuário, número, e-mail e senha.</a></li>
+                <li><a href="#r">Um formulário de radio.</a></li>
+                <li><a href="#m">Um formulário de checkbox.</a></li>
+                <li><a href="#u">Um formulário de select.</a></li>
+                <li><a href="#l">Um formulário de datalist.</a></li>
+                <li><a href="#a">Um formulário de textarea.</a></li>
+                <li><a href="#i">Um formulário de fieldset.</a></li>
+                <li><a href="#h">Um formulário de GET.</a></li>
+                <li><a href="#t">Um formulário de POST.</a></li>
+            </ol>
+            <h2>Informações adicionais "inputs".</h2>
+            <ul>
+                <li><a href="#s">Input (faixa).</a></li>
+                <li><a href="#q">Input (arquivo).</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <section>
     <ol type="A">
         <li>
-            <b><u>Um formulário de data, hora, mês e data-hora local:
+            <b><u id="f">Um formulário de data, hora, mês e data-hora local:
                 </u></b>
         </li>
         <p>
@@ -57,7 +82,7 @@
         </p>
         <br>
         <li>
-            <b><u> Um formulário de usuário, número, e-mail e senha:
+            <b><u id="o"> Um formulário de usuário, número, e-mail e senha:
             </b></u>
         </li>
         <p>
@@ -93,7 +118,7 @@
         </p>
         <br>
         <li>
-            <b><u> Um formulário de radio:
+            <b><u id="r"> Um formulário de radio:
             </b></u>
         </li>
         <p>
@@ -110,7 +135,7 @@
         </p>
         <br>
         <li>
-            <b><u> Um formulário de checkbox:
+            <b><u id="m"> Um formulário de checkbox:
             </b></u>
         </li>
         <form>
@@ -143,7 +168,7 @@
         </p>
         <br>
         <li>
-            <b><u> Um formulário de select:
+            <b><u id="u"> Um formulário de select:
             </b></u>
         </li>
         <br>
@@ -181,7 +206,7 @@
         </p>
         <br>
         <li>
-            <b><u> Um formulário de datalist:
+            <b><u id="l"> Um formulário de datalist:
             </b></u>
         </li>
         <br>
@@ -201,7 +226,7 @@
         </p>
         <br>
         <li>
-            <b><u> Um formulário de textarea:
+            <b><u id="a"> Um formulário de textarea:
             </b></u>
         </li>
         <h3>Artigo novo</h3>
@@ -216,7 +241,7 @@
         </p>
         <br>
         <li>
-            <b><u> Um formulário de fieldset:
+            <b><u id="i"> Um formulário de fieldset:
             </b></u>
         </li>
         <h4>Contate-nos</h4>
@@ -245,7 +270,7 @@
         <br>
         <li>
             <!-- parâmetros com GET -->
-            <b><u> Um formulário de GET:
+            <b><u id="h"> Um formulário de GET:
             </b></u>
         </li>
         <br>
@@ -257,17 +282,20 @@
         </form>
         </p>
         <br>
-        <li>
+        <li id="t">
             <!-- parâmetros com POST -->
             <a href="index2.html" target="_blank">Um formulário de POST:</a>
             </b></u>
         </li>
     </ol>
     <ol>
+    </section>
+    </main>
         <br>
-        <h5><b>Informações adicionais <mark>"nputs"</b></mark></h5>
+        <aside>
+        <h5><b id="info">Informações adicionais <mark>"inputs"</b></mark></h5>
         <li>
-            <b><u> Input (faixa):
+            <b><u id="s"> Input (faixa):
             </b></u>
         </li>
         <br>
@@ -282,16 +310,20 @@
         <br><br>
 
         <li>
-            <b><u> Input (arquivo):
+            <b><u id="q"> Input (arquivo):
             </b></u>
         </li>
         <br>
         <!-- para escolher um arquivo e enviar -->
         <input type="file" name="file">
     </ol>
-    <br><br>
-    &copy; <b><sup>E</sup>P<sub>A</sub>P</b>
+</aside>
 
+    <br><br>
+    <footer>
+        <p> &copy; 2025 <b><sup>E</sup>P<sub>A</sub>P</b>. Todos os direitos reservados.
+        </p>
+    </footer>
 </body>
 
 </html>
